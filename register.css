@@ -1,0 +1,66 @@
+/* login.css */
+
+/* Mengatur gaya untuk seluruh body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur gaya untuk heading */
+h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Mengatur gaya untuk form */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+}
+
+/* Mengatur gaya untuk input text dan password */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Mengatur gaya untuk tombol submit */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Mengatur gaya untuk tombol submit ketika dihover */
+form button:hover {
+    background-color: #218838;
+}
+
+/* Mengatur gaya untuk pesan kesalahan */
+form p {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}

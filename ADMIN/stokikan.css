@@ -1,0 +1,118 @@
+/* stokikan.css */
+
+/* Mengatur gaya untuk seluruh body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur gaya untuk header */
+header {
+    background-color: #004d40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.btn-sign-up {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-sign-up:hover {
+    background-color: #d32f2f;
+}
+
+.header-title {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.header-bottom {
+    margin-top: 10px;
+}
+
+.today-date {
+    font-size: 18px;
+    color: #ffe082;
+}
+
+/* Mengatur gaya untuk section produk */
+#products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.product-box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-box h3 {
+    margin: 15px 0;
+    color: #333;
+}
+
+.product-box p {
+    color: #777;
+}
+
+.order-button {
+    display: inline-block;
+    background-color: #0288d1;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.order-button:hover {
+    background-color: #0277bd;
+}
+
+/* Mengatur gaya untuk footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
